@@ -1,0 +1,72 @@
+body {
+  background-color: #696D7D;
+  color: #F6F4F3
+}
+
+h1 {
+  color: #070600
+}
+
+.clickme-button {
+  background-color: #DC851F;
+  color: #F6F4F3;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  text-align: initial;
+  transition: background-color 0.15s;
+}
+
+.clickme-button:hover {
+  background-color: #dba260;
+}
+
+.clickme-button:active {
+  background-color: #dc7f16;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242322;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #696D7D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #DC851F;
+}
+
+.active {
+  background-color: #6c6c6c;
+}
+
+.wlc {
+  font-size: 25px;
+  margin-top: 50px;
+  background-color: #242322;
+}
+
+.shop {
+  text-decoration: underline;
+}
+
+.shop:hover {
+  color: #070600;
+  cursor: pointer;
+}
